@@ -11,11 +11,8 @@ btnConfirmar.addEventListener("click", function() {
 }
 
 
-console.log("validator");
+console.log("validator")
 
 
-    
 
-
-}
 
