@@ -1,0 +1,15 @@
+body {
+    background-color: #FF6D1D ;
+}
+.rec-sq {
+    display: flex;
+    gap: 2em;
+}
+
+.rectangle {
+    width: 24rem;
+    height: 14rem;
+    background-color: #FFA518;
+    border: solid #E1DEDE;
+   
+}
