@@ -1,4 +1,3 @@
-
 import validator from './validator.js';
 
 //const nome = document.getElementById("nomeSobrenome")
@@ -8,11 +7,9 @@ let btnConfirmar = document.getElementById("pegarDadosCartao")
 btnConfirmar.addEventListener("click", function() {
    
     alert("teste")
-}
+})
 
 
 console.log("validator")
-
-
 
 
