@@ -12,3 +12,4 @@ btnConfirmar.addEventListener("click", function() {
 console.log("validator")
 
 
+
