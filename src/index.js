@@ -1,12 +1,11 @@
-import validator from './validator.js';
+import isValid from './validator.js';
 
-//const nome = document.getElementById("nomeSobrenome")
-//const cartao = document.getElementById("numeroCartao")
+const nome = document.getElementById("nomeSobrenome")
+let cartao = document.getElementById("numeroCartao")
 let btnConfirmar = document.getElementById("pegarDadosCartao") 
 
 btnConfirmar.addEventListener("click", function() {
-   
-    alert("teste")
+      console.log(isValid(cartao.value))
 })
 
 
