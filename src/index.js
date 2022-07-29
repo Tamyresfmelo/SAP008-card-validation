@@ -1,15 +1,22 @@
-import isValid from './validator.js';
+import validator from './validator.js';
 
 const nome = document.getElementById("nomeSobrenome")
 let cartao = document.getElementById("numeroCartao")
 let btnConfirmar = document.getElementById("pegarDadosCartao") 
 
+
 btnConfirmar.addEventListener("click", function() {
-      console.log(isValid(cartao.value))
+     let cartaoValido = validator.isValid(cartao.value)
+      if (cartaoValido == true){
+            alert (nome.value + ", Cartão Válido!")     
+       }else {
+            alert (nome.value + ", Cartão inválido!")
+       }
 })
 
 
-console.log("validator")
+
+console.log(validator.maskify(""))
 
 
 
