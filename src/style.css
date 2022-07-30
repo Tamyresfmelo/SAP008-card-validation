@@ -12,3 +12,8 @@ body {
     padding: 50px 10px 20px 20px;     
    
 }
+
+#validacao {
+    font-size: 30px;
+    color: #049c32;
+}
