@@ -8,10 +8,10 @@ function isValid(cardNumber){
   let somaTotal = 0
   let imparOuPar = cardNumber.length % 2
   for (let i = cardNumber.length - 1; i >= 0; i = i - 1){
-    console.log("interador: " + i)
-    if(i % 2 == imparOuPar){
+        if(i % 2 == imparOuPar){
       let position = parseInt(cardNumber.charAt(i))
       let multPosicao = position*2
+      console.log("número a ser multiplicado " + position)
        if (multPosicao >= 10){      
          multPosicao = multPosicao - 9
          somaTotal = somaTotal + multPosicao      
