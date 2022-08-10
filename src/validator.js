@@ -43,16 +43,3 @@ function maskify(cardNumber){
 
 export default validator;
 
-//// for(<variavies-de-controle>; <condicao>; <incrementos-das-variaveis-de-controle>) 
-
-
-isValid
-///function isValid(cardNumber) {
-  //for(let i = 0; i < cardNumber.length ; i++) {
-    //console.log(i)
-    //console.log(cardNumber[i])
-    //if (posicaoImpar) {
-     //let mult = position*2
-      //if (mult >= 10) {
-        //let calculo = mult - 9
-      //}
