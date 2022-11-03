@@ -2,7 +2,7 @@
 
 ## 2. Resumo do projeto
 
-Uma aplicação web que permita o usuário validar o númedo do cartão de crédito utilizando o algoritmo de de lunh (ou módulo 10), onde será preciso mostrar se o cartão foi validado ou não e também esconder os 4 útimos dígitos do cartão.
+Uma aplicação web que permita o usuário validar o númedo do cartão de crédito utilizando o algoritmo de de lunh (ou módulo 10), onde será preciso mostrar se o cartão foi validado ou não e também escondendo os dígitos do cartão, exceto os 4 útimos números.
 O tema escolhido foi ACADEMIA BOA FORMA.
 
 ## 3. Imagem Final do Projeto
