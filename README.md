@@ -1,8 +1,9 @@
-# ACADEMIA BOA FORMA
+# VALIDAÇÃO DE CARTÃO
 
 ## 2. Resumo do projeto
 
-Nesse projeto será solicitado o número do cartão e o nome, irá verificar se o cartão é válido ou não através do código de lunh(ou módulo 10) e mostrará na tela a confirmação junto ao nome do dono do cartão. Também será mascarado os números do cartão, ficando apenas a mostra os 4 últimos dígitos.
+Uma aplicação web que permita o usuário validar o númedo do cartão de crédito utilizando o algoritmo de de lunh (ou módulo 10), onde será preciso mostrar se o cartão foi validado ou não e também esconder os 4 útimos dígitos do cartão.
+O tema escolhido foi ACADEMIA BOA FORMA.
 
 ## 3. Imagem Final do Projeto
 
